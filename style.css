@@ -1,0 +1,31 @@
+body {
+    background-color:#A0A0A0;
+    font-family:"Times New Roman";
+    font-size:"12pt";
+    
+}
+
+a:hover {
+    color:#F33;
+}
+
+a:visited {
+    color:#04F;
+}
+
+ul {
+    list-style-type:none; 
+}
+
+ul.info {
+    border-style:groove;
+    border-width:5px;
+    border-color:#C0C0C0;
+    padding-bottom:30px;
+    padding-right:50px;
+    background-color:#D0D0D0;
+}
+
+ul.contact-info {
+    list-style-type:square;
+}
