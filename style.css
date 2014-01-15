@@ -9,12 +9,12 @@ body {
     margin:0 auto;
 }
 
-a:hover {
-    color:#F33;
-}
-
 a:visited {
     color:#04F;
+}
+
+a:hover {
+    color:#F33;
 }
 
 header {
