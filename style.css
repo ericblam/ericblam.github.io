@@ -17,18 +17,23 @@ a:visited {
     color:#04F;
 }
 
-h1 {
-    font-family:"Helvetica";
-}
-
-h2 {
-    font-family:"Helvetica";
-}
-
 header {
-    width: 270px;
-    float: left;
-    position: fixed;
+    width:256px;
+    float:left;
+    position:fixed;
+}
+
+header h1 {
+    font-family:"Helvetica";
+}
+
+header h2 {
+    font-family:"Helvetica";
+}
+
+section {
+    width:512px;
+    float:right;
 }
 
 ul {
