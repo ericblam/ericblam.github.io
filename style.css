@@ -1,12 +1,7 @@
 body {
     background-color:#A0A0A0;
     font-family:"Times New Roman";
-    font-size:"12pt";    
-}
-
-.wrapper {
-    width:1024px;
-    margin:0 auto;
+    font-size:16px;
 }
 
 a:visited {
@@ -51,4 +46,14 @@ ul.info {
 
 ul.contact-info {
     list-style-type:square;
+}
+
+.wrapper {
+    width:1024px;
+    margin:0 auto;
+}
+
+div.error {
+    font-family:"Impact";
+    font-size:48px;
 }
