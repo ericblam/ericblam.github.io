@@ -55,5 +55,6 @@ ul.contact-info {
 
 div.error {
     font-family:"Impact";
-    font-size:48px;
+    font-size:36px;
+    text-align:justify;
 }
