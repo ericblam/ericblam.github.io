@@ -26,7 +26,10 @@
 	</ul>
       </header>
       <section>
-	Here is a bunch of the sheet music that I have transcribed over the years. Most of it has been arranged from MIDI's I have found throughout the internet, but a select few have been done mostly or completely by ear. I hope you enjoy!
+	<?php
+	   echo "Here is a bunch of the sheet music that I have transcribed over the years. Most of it has been arranged from MIDI's I have found throughout the internet, but a select few have been done mostly or completely by ear. I hope you enjoy!";
+	   echo "<p>Here is a paragraph!</p>";
+	   ?>
       </section>
     </div>
   </body>
