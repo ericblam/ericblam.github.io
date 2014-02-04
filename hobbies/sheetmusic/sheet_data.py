@@ -18,8 +18,11 @@ lines = lines.split("\n");
 # CREATE SHEET MUSIC TABLE
 header = lines[0].split(";")
 del lines[0]
+images = lines[0].split(";")
+del lines[0]
 
-web_file.write("<table>")
+file_index = header.index("file")
+not_first_line = False
 for line in lines:
     line = line.split(";")
     ### TITLE
@@ -28,18 +31,27 @@ for line in lines:
         if line[1] == "###":
             break;
         else:
-            web_file.write("</table><br /><br />")
+            if not_first_line:
+                web_file.write("</table><br /><br />")
+            else:
+                not_first_line = True
             web_file.write("<h3>")
             web_file.write(line[1])
             web_file.write("</h3>")
-            web_file.write("<table>")
-        print line[1]
+            web_file.write("<table class='sheetmusic'>")
     ### CONTENT
     else:
         web_file.write("<tr>");
-        for i in range(header.index("file")):
+        for i in range(file_index):
             web_file.write("<td>");
             web_file.write(line[i]);
+            web_file.write("</td>");
+        for i in range(file_index + 1,len(header)):
+            web_file.write("<td>");
+            if line[i] == "y":
+                web_file.write("<a href='" + line[file_index] \
+                                   + "." + header[i] + "'><img src='" \
+                                   + images[i] + "'></a>")
             web_file.write("</td>");
         web_file.write("</tr>");
 web_file.write("</table>")
