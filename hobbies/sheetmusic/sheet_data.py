@@ -37,12 +37,14 @@ for line in lines:
                 web_file.write("</table><br /><br />")
             else:
                 not_first_line = True
-            web_file.write("<h3>")
+            web_file.write("<h3 class='sheetmusic'>")
             web_file.write(line[1])
             web_file.write("</h3>")
             web_file.write("<table class='sheetmusic'>")
+            web_file.write("<tr>")
             for item in header:
                 web_file.write("<th>" + item +"</th>")
+            web_file.write("</tr>")
     ### CONTENT
     else:
         web_file.write("<tr>");

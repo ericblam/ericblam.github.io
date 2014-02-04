@@ -27,7 +27,7 @@ header h2 {
 }
 
 section {
-    width:512px;
+    width:600px;
     float:right;
 }
 
@@ -50,11 +50,39 @@ ul.contact-info {
 
 .wrapper {
     width:1024px;
-    margin:0 auto;
+    margin:5 auto;
 }
 
 div.error {
     font-family:"Impact";
     font-size:36px;
     text-align:justify;
+}
+
+h3.sheetmusic {
+    font-family:"Arial Black";
+    font-size:24px;
+    text-align:center;
+}
+
+table.sheetmusic {
+    font-family:"Trebuchet MS";
+    border:3px groove black;
+    border-collapse:collapse;
+    width:100%;
+}
+
+table.sheetmusic th {
+    font-family:"Georgia";
+    font-size:18px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#C0C0C0;
+}
+
+table.sheetmusic td {
+    border-style:solid;
+    border-width:1px;
+    border-color:#C0C0C0;
+    text-align:center;
 }
