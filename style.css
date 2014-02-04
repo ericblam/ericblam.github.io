@@ -2,6 +2,7 @@ body {
     background-color:#A0A0A0;
     font-family:"Times New Roman";
     font-size:16px;
+    text-align:justify;
 }
 
 a:visited {
@@ -18,17 +19,18 @@ header {
     position:fixed;
 }
 
-header h1 {
-    font-family:"Helvetica";
-}
-
-header h2 {
+header h1, h2 {
     font-family:"Helvetica";
 }
 
 section {
     width:600px;
     float:right;
+}
+
+section.frontpage {
+    font-family:"Helvetica", "Arial";
+    font-size:14px;
 }
 
 ul {
