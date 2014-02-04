@@ -16,12 +16,14 @@ for line in base_lines:
 lines = data_file.read()
 lines = lines.split("\n");
 # CREATE SHEET MUSIC TABLE
+types = lines[0].split(";")
+del lines[0]
 header = lines[0].split(";")
 del lines[0]
 images = lines[0].split(";")
 del lines[0]
 
-file_index = header.index("file")
+file_index = types.index("file")
 not_first_line = False
 for line in lines:
     line = line.split(";")
@@ -39,6 +41,8 @@ for line in lines:
             web_file.write(line[1])
             web_file.write("</h3>")
             web_file.write("<table class='sheetmusic'>")
+            for item in header:
+                web_file.write("<th>" + item +"</th>")
     ### CONTENT
     else:
         web_file.write("<tr>");
@@ -46,11 +50,11 @@ for line in lines:
             web_file.write("<td>");
             web_file.write(line[i]);
             web_file.write("</td>");
-        for i in range(file_index + 1,len(header)):
+        for i in range(file_index + 1,len(types)):
             web_file.write("<td>");
             if line[i] == "y":
                 web_file.write("<a href='" + line[file_index] \
-                                   + "." + header[i] + "'><img src='" \
+                                   + "." + types[i] + "'><img src='" \
                                    + images[i] + "'></a>")
             web_file.write("</td>");
         web_file.write("</tr>");
