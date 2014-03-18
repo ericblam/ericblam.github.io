@@ -37,30 +37,30 @@ for line in lines:
                 web_file.write("</table><br /><br />")
             else:
                 not_first_line = True
-            web_file.write("<h3 class='sheetmusic'>")
+            web_file.write("\t<h3 class='sheetmusic'>")
             web_file.write(line[1])
-            web_file.write("</h3>")
-            web_file.write("<table class='sheetmusic'>")
-            web_file.write("<tr>")
+            web_file.write("</h3>\n")
+            web_file.write("\t<table class='sheetmusic'>\n")
+            web_file.write("\t\t<tr>\n")
             for item in header:
-                web_file.write("<th>" + item +"</th>")
-            web_file.write("</tr>")
+                web_file.write("\t\t\t<th>" + item +"</th>\n")
+            web_file.write("\t\t</tr>\n")
     ### CONTENT
     else:
-        web_file.write("<tr>");
+        web_file.write("\t\t<tr>\n");
         for i in range(file_index):
-            web_file.write("<td>");
+            web_file.write("\t\t\t<td>");
             web_file.write(line[i]);
-            web_file.write("</td>");
+            web_file.write("</td>\n");
         for i in range(file_index + 1,len(types)):
-            web_file.write("<td>");
+            web_file.write("\t\t\t<td>");
             if line[i] == "y":
                 web_file.write("<a href='" + line[file_index] \
                                    + "." + types[i] + "'><img src='" \
                                    + images[i] + "'></a>")
-            web_file.write("</td>");
-        web_file.write("</tr>");
-web_file.write("</table>")
+            web_file.write("</td>\n");
+        web_file.write("</tr>\n");
+web_file.write("</table>\n")
 
 # COPY REST OF PAGE
 for x in range(base_place + 1, len(base_lines)):
