@@ -61,6 +61,21 @@ div.error {
     text-align:justify;
 }
 
+h1.blog {
+    font-family:"Palatino Linotype";
+    font-size:36px;
+    text-decoration:underline;
+}
+
+blog_date {
+    font-family:"Times New Roman","Arial";
+    font-style:italic;
+}
+
+div.blog {
+    font-family:"Times New Roman";
+}
+
 h3.sheetmusic {
     font-family:"Arial Black";
     font-size:24px;
