@@ -88,6 +88,7 @@ table.sheetmusic {
     border:3px groove black;
     border-collapse:collapse;
     width:100%;
+    background-color:#E0E0E0;
 }
 
 table.sheetmusic th {
