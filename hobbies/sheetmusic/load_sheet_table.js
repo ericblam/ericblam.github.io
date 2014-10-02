@@ -1,6 +1,7 @@
 // Change url after
-//var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
-var url = "sheet_data.csv";
+var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
+//var url = "sheet_data.csv";
+
 data_file = httpGet(url);
 document.write(data_file);
 
@@ -21,6 +22,6 @@ function httpGet(url)
             return xmlhttp.responseText;
         }
     }
-    xmlhttp.open("GET", url, true);
+    xmlhttp.open("GET", url, false);
     xmlhttp.send();
 }
