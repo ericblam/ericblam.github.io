@@ -1,6 +1,7 @@
 // Change url after
 //var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
-var url = "sheet_data.csv";
+//var url = "sheet_data.csv";
+var url = "https://raw.githubusercontent.com/ericthelam73/ericthelam73.github.io/master/hobbies/sheetmusic/sheet_data.csv";
 
 function httpGet(url)
 {
@@ -24,6 +25,6 @@ function httpGet(url)
 }
 
 data_file = httpGet(url);
-//document.write(data_file);
-document.getElementById("test").innerHTML = data_file;
+document.write(data_file);
+//document.getElementById("test").innerHTML = data_file;
 
