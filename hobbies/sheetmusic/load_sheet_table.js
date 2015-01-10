@@ -2,9 +2,6 @@
 var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
 //var url = "sheet_data.csv";
 
-data_file = httpGet(url);
-document.write(data_file);
-
 function httpGet(url)
 {
     if (window.XMLHttpRequest)
@@ -19,9 +16,14 @@ function httpGet(url)
     {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
+	    alert("http request sent back");
             return xmlhttp.responseText;
         }
     }
     xmlhttp.open("GET", url, false);
     xmlhttp.send();
 }
+
+data_file = httpGet(url);
+document.write(data_file);
+
