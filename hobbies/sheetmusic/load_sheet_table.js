@@ -16,14 +16,14 @@ function httpGet(url)
     {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
-	    alert("http request sent back");
             return xmlhttp.responseText;
         }
     }
-    xmlhttp.open("GET", url, false);
+    xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
 
 data_file = httpGet(url);
-document.write(data_file);
+//document.write(data_file);
+document.getElementById("test").innerHTML = data_file;
 
