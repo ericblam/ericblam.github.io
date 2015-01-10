@@ -1,6 +1,6 @@
 // Change url after
-var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
-//var url = "sheet_data.csv";
+//var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
+var url = "sheet_data.csv";
 
 function httpGet(url)
 {
