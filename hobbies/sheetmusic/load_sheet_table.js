@@ -18,18 +18,14 @@ function httpGet(url)
     {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
-            // return xmlhttp.responseText;
-	    // document.write(xmlhttp.responseText);
-	    // document.getElementById("test").innerHTML = "hello";
-	    document.getElementById("test").innerHTML = xmlhttp.responseText;
+            return xmlhttp.responseText;
+	    // document.getElementById("test").innerHTML = xmlhttp.responseText;
         }
     }
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
 
-httpGet(url);
-// data_file = httpGet(url);
+data_file = httpGet(url);
 // document.write(data_file);
-
-
+document.getElementById("test").innerHTML = xmlhttp.responseText;
