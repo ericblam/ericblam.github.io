@@ -28,4 +28,4 @@ function httpGet(url)
 
 data_file = httpGet(url);
 // document.write(data_file);
-document.getElementById("test").innerHTML = xmlhttp.responseText;
+document.getElementById("test").innerHTML = data_file;
