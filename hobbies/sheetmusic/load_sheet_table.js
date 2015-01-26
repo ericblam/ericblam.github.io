@@ -26,6 +26,6 @@ function httpGet(url)
     xmlhttp.send();
 }
 
-data_file = httpGet(url);
+var data_file = httpGet(url);
 // document.write(data_file);
 document.getElementById("test").innerHTML = data_file;
