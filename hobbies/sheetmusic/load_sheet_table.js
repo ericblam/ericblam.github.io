@@ -1,11 +1,14 @@
 // Change url after
-//var url = "http://homepages.rpi.edu/~lame3/hobbies/sheetmusic/sheet_data.csv";
-var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
+var url = "http://homepages.rpi.edu/~lame3/hobbies/sheetmusic/sheet_data.csv";
+// var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
 //var url = "sheet_data.csv";
+
+var data_file;
 
 function httpGet(url)
 {
     var xmlhttp;
+    var file_data;
     if (window.XMLHttpRequest)
     {// code for IE7+, Firefox, Chrome, Opera, Safari
         xmlhttp=new XMLHttpRequest();
@@ -18,14 +21,13 @@ function httpGet(url)
     {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
-            return xmlhttp.responseText;
-	    // document.getElementById("test").innerHTML = xmlhttp.responseText;
+            file_data = xmlhttp.responseText;
         }
     }
-    xmlhttp.open("GET", url, true);
+    xmlhttp.open("GET", url, false);
     xmlhttp.send();
+    return file_data;
 }
 
-var data_file = httpGet(url);
-// document.write(data_file);
+data_file = httpGet(url);
 document.getElementById("test").innerHTML = data_file;
