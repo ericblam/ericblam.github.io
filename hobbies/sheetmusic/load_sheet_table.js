@@ -1,6 +1,6 @@
 // Change url after
-var url = "http://homepages.rpi.edu/~lame3/hobbies/sheetmusic/sheet_data.csv";
-// var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
+// var url = "http://homepages.rpi.edu/~lame3/hobbies/sheetmusic/sheet_data.csv";
+var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
 //var url = "sheet_data.csv";
 
 var data_file;
