@@ -1,5 +1,4 @@
-// var base_url = "http://ericblam.com/blog/";
-var base_url = "http://homepages.rpi.edu/~lame3/blog/";
+var base_url = "http://ericblam.com/blog/";
 var blog_url = "blog_entries.txt";
 
 var data_file;
