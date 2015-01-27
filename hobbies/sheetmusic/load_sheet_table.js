@@ -86,4 +86,4 @@ function write_table(data) {
 
 data_file = httpGet(url);
 var formatted_table = write_table(data_file);
-document.getElementById("test").innerHTML = formatted_table;
+document.getElementById("sheet_table").innerHTML = formatted_table;
