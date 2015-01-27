@@ -43,7 +43,7 @@ function writeBlog(data) {
 
 	    blog += "<div class='blog'>";
 	    blog += "<h1 class='blog'>" + blog_entry_lines[1] + "</h1>";
-	    blog += "<div blog_date>" + blog_entry_lines[3] + "</div>";
+	    blog += "<div class='blog_date'>" + blog_entry_lines[3] + "</div>";
 	    for (j = 5; j < blog_entry_lines.length; j++) {
 		blog += blog_entry_lines[j];
 	    }

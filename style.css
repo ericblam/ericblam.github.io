@@ -68,7 +68,7 @@ h1.blog {
     text-align:left;
 }
 
-blog_date {
+div.blog_date {
     font-family:"Times New Roman","Arial";
     font-style:italic;
 }
