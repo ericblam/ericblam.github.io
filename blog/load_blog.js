@@ -42,8 +42,8 @@ function writeBlog(data) {
 	    blog_entry_lines[4].trim() == "### TEXT ###") {
 
 	    blog += "<div class='blog'>";
-	    blog += "<a id='" + files[i] + "'>";
-	    blog += "<h1 class='blog'>" + blog_entry_lines[1] + "</h1></a>";
+	    blog += "<a id='" + files[i] + "'></a>";
+	    blog += "<h1 class='blog'>" + blog_entry_lines[1] + "</h1>";
 	    blog_header += "<li>";
 	    blog_header += "<a class='blog_title' href='#" + files[i] + "'>"
 	    blog_header += blog_entry_lines[1] + "</a>";
