@@ -16,7 +16,6 @@ a:hover {
 header {
     width:256px;
     float:left;
-    position:fixed;
 }
 
 header h1, h2 {
