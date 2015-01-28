@@ -45,7 +45,7 @@ function writeBlog(data) {
 	    blog += "<a id='" + files[i] + "'></a>";
 	    blog += "<h1 class='blog'>" + blog_entry_lines[1] + "</h1>";
 	    blog_header += "<li>";
-	    blog_header += "<a class='blog_title' href='#" + files[i] + "'>"
+	    blog_header += "<a href='#" + files[i] + "'>"
 	    blog_header += blog_entry_lines[1] + "</a>";
 	    blog_header += "</li>";
 	    blog += "<div class='blog_date'>" + blog_entry_lines[3] + "</div>";
