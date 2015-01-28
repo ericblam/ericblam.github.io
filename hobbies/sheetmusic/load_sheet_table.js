@@ -51,33 +51,33 @@ function write_table(data) {
 		else {
 		    not_first_line = true;
 		}
-		text += "\t<h3 class='sheetmusic'>";
+		text += "<h3 class='sheetmusic'>";
 		text += line[1];
-		text += "</h3>\n";
-		text += "\t<table class='sheetmusic'>\n";
-		text += "\t\t<tr>\n";
+		text += "</h3>";
+		text += "<table class='sheetmusic'>";
+		text += "<tr>";
 		for (j = 0; j < header.length; j++) {
-		    text += "\t\t\t<th>" + header[j] + "</th>\n";
+		    text += "<th>" + header[j] + "</th>";
 		}
 	    }
 	}
 	// Content
 	else {
-	    text += "\t\t<tr>\n";
+	    text += "<tr>";
 	    for (j = 0; j < file_index; j++) {
-		text += "\t\t\t<td>";
+		text += "<td>";
 		text += line[j];
-		text += "</td>\n";
+		text += "</td>";
 	    }
 	    for (j = file_index + 1; j < types.length; j++) {
-		text += "\t\t\t<td>";
+		text += "<td>";
 		if (line[j] == "y") {
 		    text += "<a href='" + line[file_index] + "." + types[j];
 		    text += "'><img src='" + images[j] + "'></a>";
 		}
-		text += "</td>\n";
+		text += "</td>";
 	    }
-	    text += "</tr>\n";
+	    text += "</tr>";
 	}
     }
     text += "</table>";
