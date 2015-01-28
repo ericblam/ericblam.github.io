@@ -49,6 +49,10 @@ ul.contact-info {
     list-style-type:square;
 }
 
+ul.blog_list {
+    list-style-type:square;
+}
+
 .wrapper {
     width:1024px;
     margin:5 auto;
@@ -80,6 +84,11 @@ h3.sheetmusic {
     font-family:"Arial Black";
     font-size:24px;
     text-align:center;
+}
+
+h3.blog_list_title {
+    font-family:"Helvetica";
+    font-size:24px;
 }
 
 table.sheetmusic {

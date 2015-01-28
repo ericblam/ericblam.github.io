@@ -32,7 +32,7 @@ function writeBlog(data) {
     var blog_entry_data;
     var blog_entry_lines;
     var blog = "";
-    var blog_header = "<ul class='blog_list'>";
+    var blog_header = "<h3 class='blog_list_title'>Blog Entries</h3><ul class='blog_list'>";
     for (i = 0; i < files.length - 1; i++) {
 	blog_entry_data = httpGet(base_url + files[i] + ".blg");
 	blog_entry_lines = blog_entry_data.split("\n");
