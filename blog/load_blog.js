@@ -45,8 +45,8 @@ function writeBlog(data) {
 	    blog += "<a id='" + files[i] + "'>";
 	    blog += "<h1 class='blog'>" + blog_entry_lines[1] + "</h1></a>";
 	    blog_header += "<li>";
-	    blog_header += "<a class='blog_title' href='#" + files[i] + "'></a>";
-	    blog_header += blog_entry_lines[1];
+	    blog_header += "<a class='blog_title' href='#" + files[i] + "'>"
+	    blog_header += blog_entry_lines[1] + "</a>";
 	    blog_header += "</li>";
 	    blog += "<div class='blog_date'>" + blog_entry_lines[3] + "</div>";
 	    for (j = 5; j < blog_entry_lines.length; j++) {
