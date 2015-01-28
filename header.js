@@ -3,7 +3,9 @@ function make_header(prefix) {
     header += "<ul>";
     header += "<li><a href='" + prefix + "'>Home</a></li>";
     header += "<li><a href='" + prefix + "hobbies'>Hobbies</a></li>";
+    header += "<div id='header_hobbies'></div>";
     header += "<li><a href='" + prefix + "blog'>Blog</a></li>";
+    header += "<div id='header_blog'></div>";
     header += "</ul>";
     header += "<h1>Eric Lam</h1>";
     header += "<img src='" + prefix + "ericlam.jpg'>";
