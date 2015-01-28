@@ -13,6 +13,10 @@ a:hover {
     color:#F33;
 }
 
+a.blog_title:hover {
+    color:#000;
+}
+
 header {
     width:256px;
     float:left;
