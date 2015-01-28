@@ -32,7 +32,7 @@ function writeBlog(data) {
     var blog_entry_data;
     var blog_entry_lines;
     var blog = "";
-    var blog_header = "";
+    var blog_header = "<ul class='blog_list'>";
     for (i = 0; i < files.length - 1; i++) {
 	blog_entry_data = httpGet(base_url + files[i] + ".blg");
 	blog_entry_lines = blog_entry_data.split("\n");
@@ -44,7 +44,10 @@ function writeBlog(data) {
 	    blog += "<div class='blog'>";
 	    blog += "<a id='" + files[i] + "'>";
 	    blog += "<h1 class='blog'>" + blog_entry_lines[1] + "</h1></a>";
-	    blog_header += "<a href='#" + files[i] + "'>" + blog_entry_lines[1] + "</a><br>";
+	    blog_header += "<li>";
+	    blog_header += "<a href='#" + files[i] + "'>"
+	    blog_header += blog_entry_lines[1] + "</a>";
+	    blog_header += "</li>";
 	    blog += "<div class='blog_date'>" + blog_entry_lines[3] + "</div>";
 	    for (j = 5; j < blog_entry_lines.length; j++) {
 		blog += blog_entry_lines[j];
@@ -53,6 +56,7 @@ function writeBlog(data) {
 	    blog += "<br /><br />";
 	}
     }
+    blog_header += "</ul>"
     document.getElementById("header_blog").innerHTML += blog_header;
     return blog;
 }
