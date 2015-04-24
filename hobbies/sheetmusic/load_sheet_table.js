@@ -1,4 +1,4 @@
-var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.csv";
+var url = "http://ericblam.com/hobbies/sheetmusic/sheet_data.json";
 
 function httpGet(url)
 {
@@ -16,7 +16,8 @@ function httpGet(url)
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
             var file_data = xmlhttp.responseText;
-	    document.getElementById("sheet_table").innerHTML = write_table(file_data);
+	    var json_data = JSON.parse(file_data);
+	    document.getElementById("sheet_table").innerHTML = write_table(json_data);
         }
     }
     xmlhttp.open("GET", url, true );
@@ -24,60 +25,54 @@ function httpGet(url)
 }
 
 function write_table(data) {
-    var lines = data.split("\n");
-    var not_first_line = false;
-
     var text = "";
 
-    var types = lines[0].split(";");
-    var header = lines[1].split(";");
-    var images = lines[2].split(";");
-    var file_index = types.indexOf("file");
+    // For every category
+    for (i = 0; i < data.length; i++) {
 
-    for (i = 3; i < lines.length - 1; i++) {
-	line = lines[i].trim().split(";");
-	// Title
-	if (line[0] == "###") {
-	    // End of Table
-	    if (line[1] == "###")
-		break;
-	    else {
-		if (not_first_line) {
-		    text += "</table><br /><br />";
-		}
-		else {
-		    not_first_line = true;
-		}
-		text += "<h3 class='sheetmusic'>";
-		text += line[1];
-		text += "</h3>";
-		text += "<table class='sheetmusic'>";
-		text += "<tr>";
-		for (j = 0; j < header.length; j++) {
-		    text += "<th>" + header[j] + "</th>";
-		}
-	    }
-	}
-	// Content
-	else {
+	text += "<h3 class='sheetmusic'>";
+	text += data[i].category;
+	text += "</h3>";
+	text += "<table class='sheetmusic'>";
+	text += "<tr>";
+	text += "<th>Song</th><th>From</th><th>Composed By</th>";
+	text += "<th>MIDI</th><th>MuseScore</th><th>PDF</th>";
+	text += "</tr>"
+
+	// For every song
+	for (j = 0; j < data[i].data.length; j++) {
 	    text += "<tr>";
-	    for (j = 0; j < file_index; j++) {
-		text += "<td>";
-		text += line[j];
-		text += "</td>";
+	    text += "<td>" + data[i].data[j].title + "</td>";
+	    text += "<td>" + data[i].data[j].from + "</td>";
+	    text += "<td>" + data[i].data[j].composer + "</td>";
+	    if ( data[i].data[j].mid ) {
+		text += "<td><a href='" + data[i].data[j].fileName + ".mid'>";
+		text += "<img src='../../images/music_thumb.jpg'></a></td>";
 	    }
-	    for (j = file_index + 1; j < types.length; j++) {
-		text += "<td>";
-		if (line[j] == "y") {
-		    text += "<a href='" + line[file_index] + "." + types[j];
-		    text += "'><img src='" + images[j] + "'></a>";
-		}
-		text += "</td>";
+	    else {
+		text += "<td>" + "" + "</td>";
+	    }
+	    if ( data[i].data[j].mscz ) {
+		text += "<td><a href='" + data[i].data[j].fileName + ".mscz'>";
+		text += "<img src='../../images/muse_thumb.png'></a></td>";
+	    }
+	    else {
+		text += "<td>" + "" + "</td>";
+	    }
+	    if ( data[i].data[j].pdf ) {
+		text += "<td><a href='" + data[i].data[j].fileName + ".pdf'>";
+		text += "<img src='../../images/pdf_thumb.jpg'></a></td>";
+	    }
+	    else {
+		text += "<td>" + "" + "</td>";
 	    }
 	    text += "</tr>";
 	}
+
+
+	text += "</table>";
+
     }
-    text += "</table>";
     return text;
 }
 
