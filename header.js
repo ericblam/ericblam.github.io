@@ -13,7 +13,7 @@ function make_header(prefix) {
     header += "<h2>Resources</h2>";
     header += "<ul class='contact-info'>";
     header += "<li><a href='mailto:eric@ericblam.com'>eric@ericblam.com</a></li>";
-    header += "<li><a target='_blank' href='http://www.github.com/ericthelam73'>GitHub Account</a></li>";
+    header += "<li><a target='_blank' href='http://www.github.com/ericblam'>GitHub Account</a></li>";
     header += "<li><a target='_blank' href='http://www.linkedin.com/pub/eric-lam/57/9a6/338/'>Linkedin</a></li>";
     header += "<li><a target='_blank' href='" + prefix + "resume.pdf'>Resume</a></li>";
     header += "</ul>";
