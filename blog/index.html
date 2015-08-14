@@ -1,22 +1,17 @@
-<html>
-  <head>
-    <title>Eric Lam's Blog</title>
-    <meta name="author" content="Eric Lam">
-    <meta name="description" content="Eric Lam's Blog - Blag Stuff">
-    <meta name="keywords" content="Eric, B, Lam, Blog">
-    <link rel="stylesheet" type="text/css" href="../style.css">
-    <link rel="icon" type="image/x-icon" href="../images/icon.ico">
-  </head>
-  <body>
-    <div class="wrapper">
-      <div id="header"></div>
-      <script src="../header.js"></script>
-      <script>make_header("../")</script>
-      <section>
-	<div id="blog"></div>
-	<script src="load_blog.js" type="text/javascript"></script>
-      </section>
-    </div>
-    <script src="../scale_fix.js"></script>
-  </body>
-</html>
+---
+layout: default
+title: Eric Lam's Blog
+---
+{% for post in site.posts %}
+<div class="post-preview">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <div class="author-info">By {{post.author}} on {{ post.date | date: "%A, %B %d, %Y"}}</div>
+  {{ post.content | split: "<!-- more -->" | first }}
+  {% if post.content contains "<!-- more -->" %}
+  <p class="read-more"><a href="{{ post.url }}">Read more &raquo;</a></p>
+  {% endif %}
+</div>
+{% unless forloop.last %}
+<hr>
+{% endunless %}
+{% endfor %}
