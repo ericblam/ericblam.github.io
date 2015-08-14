@@ -1,0 +1,17 @@
+html, body {
+    height:100%;
+}
+
+.main-wrapper {
+    height:100%;
+}
+
+.sidebar-column {
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    height:100%;
+}
+
+.sidebar {
+    background-color:#F0F0F0;
+}
