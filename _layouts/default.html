@@ -8,17 +8,26 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="icon" type="image/x-icon" href="/images/icon.ico">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="wrapper">
-      <div id="header">
+    <div class="row">
+      <div class="col-xs-3">
 	{% include header.html %}
       </div>
-      <section class="frontpage">
-
+      <div class="col-xs-9">
 	{{ content }}
-
-      </section>
+      </div>
     </div>
   </body>
 </html>

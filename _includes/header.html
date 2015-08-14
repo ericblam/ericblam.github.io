@@ -1,22 +1,30 @@
-<header>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/hobbies">Hobbies</a></li>
-    <div id="header_hobbies"></div>
-    <li><a href="/blog">Blog</a></li>
+<!-- sidebar -->
+<div class="sidebar">
+  <ul class="nav">
+    <li><img class="img-responsive" src="/ericlam.jpg"></li>
+    <li><div class="text-center name"><h3>Eric Lam<h3></div></li>
   </ul>
-  <h1>Eric Lam</h1>
-  <img src="/ericlam.jpg">
-  <ul class="info">
-    <li>
-      <h2>Resources</h2>
-      <ul class="contact-info">
-	<li><a href="mailto:eric@ericblam.com">eric@ericblam.com</a></li>
-	<li><a target="_blank" href="http://www.github.com/ericblam">GitHub Account</a></li>
-	<li><a target="_blank" href="http://www.linkedin.com/pub/eric-lam/57/9a6/338/">Linkedin</a></li>
-	<li><a target="_blank" href="resume.pdf">Resume</a></li>
-      </ul>
-    </li>
+
+  <!-- large only nav -->
+  <ul class="nav hidden-xs" id="lg-menu">
+    <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="/hobbies"> Hobbies</a></li>
+    <li><a href="/blog"> Blog</a></li>
+    <li class="active"><a href="mailto:eric@ericblam.com"><i class="glyphicon glyphicon-envelope"></i> eric@ericblam.com</a></li>
+    <li><a href="http://www.github.com/ericblam"><i class="fa fa-github"></i> @ericblam</a></li>
+    <li><a href="http://www.linkedin.com/pub/eric-lam/57/9a6/338/"><i class="fa fa-linkedin"></i> Eric Lam</a></li>
+    <li><a href="resume.pdf"><i class="fa fa-file-text"></i> Resume</a></li>
   </ul>
-  <div id="header_blog"></div>
-</header>
+
+  <!-- tiny only nav-->
+  <ul class="nav visible-xs" id="xs-menu">
+    <li><a href="/" class="text-center"><i class="fa fa-home"></i></a></li>
+    <li><a href="/hobbies" class="text-center"><i class="fa fa-music"></i></a></li>
+    <li><a href="/blog" class="text-center"><i class="fa fa-rss"></i></a></li>
+    <li><a href="mailto:eric@ericblam.com" class="text-center"><i class="glyphicon glyphicon-envelope"></i></a></li>
+    <li><a href="http://www.github.com/ericblam" class="text-center"><i class="fa fa-github"></i></a></li>
+    <li><a href="http://www.linkedin.com/pub/eric-lam/57/9a6/338/" class="text-center"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="resume.pdf" class="text-center"><i class="fa fa-file-text"></i></a></li>
+  </ul>
+</div>
+<!-- /sidebar -->
