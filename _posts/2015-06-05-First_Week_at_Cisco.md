@@ -11,10 +11,10 @@ The next week would be all orientation at Cisco, so no real work was done. My fi
 
 <div class="row">
   <div class="col-sm-6">
-    <a href="/images/cisco_amazing_race.jpg"><img class="img-responsive img-rounded center-block" src="/images/thumbs/cisco_amazing_race.jpg" alt="First stop on the Cisco Amazing Race" style="max-height:400px;"></a>
+    <a href="/images/cisco_amazing_race.jpg"><img class="img-responsive img-rounded center-block" src="/images/thumbs/cisco_amazing_race.jpg" alt="First stop on the Cisco Amazing Race" style="max-width:400px;"></a>
   </div>
   <div class="col-sm-6">
-    <a href="/images/cisco_amazing_race2.jpg"><img class="img-responsive img-rounded center-block" src="/images/thumbs/cisco_amazing_race2.jpg" alt="" style="max-height:400px;"></a>
+    <a href="/images/cisco_amazing_race2.jpg"><img class="img-responsive img-rounded center-block" src="/images/thumbs/cisco_amazing_race2.jpg" alt="" style="max-width:400px;"></a>
   </div>
 </div>
 

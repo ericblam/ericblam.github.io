@@ -3,14 +3,11 @@ html, body
     height:100%;
 }
 
-img {
-    margin-right: 0px;
-}
-
 .img-responsive {
     height:auto;
     width:100%;
 }
+
 
 .default-container {
     display:table;
