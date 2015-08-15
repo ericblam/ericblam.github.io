@@ -1,17 +1,40 @@
-html, body {
+html,body,.container
+{
     height:100%;
 }
-
-.main-wrapper {
-    height:100%;
+.container
+{
+    display:table;
+    width: 100%;
+    margin-top: 0px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+.row
+{
+    height: 100%;
+    display: table-row;
+}
 .sidebar-column {
-    padding-bottom: 100%;
-    margin-bottom: -100%;
-    height:100%;
+    padding-left:0;
 }
-
-.sidebar {
-    background-color:#F0F0F0;
+.col-xs-3.no-float {
+    float: none; /* thanks baxabbit */
+    padding:0;
+}
+.col-xs-9.no-float {
+    float: none;
+    padding-left:25px;
+}
+.col-xs-3
+{
+    display: table-cell;
+    background: #F0F0F0;
+}
+.col-xs-9
+{
+    display: table-cell;
+    background: white;
+    float: none;
 }

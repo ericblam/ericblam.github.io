@@ -22,12 +22,14 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="row table-row">
-      <div class="col-xs-3 table-col sidebar-column">
-	{% include header.html %}
-      </div>
-      <div class="col-xs-9 table-col">
-	{{ content }}
+    <div class="container">
+      <div class="row table-row">
+	<div class="col-xs-3 no-float sidebar-column">
+	  {% include header.html %}
+	</div>
+	<div class="col-xs-9 no-float">
+	  {{ content }}
+	</div>
       </div>
     </div>
   </body>
