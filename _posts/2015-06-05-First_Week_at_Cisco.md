@@ -9,7 +9,14 @@ Sunday afternoon they drove me to the place I would be staying in San Jose, near
 
 The next week would be all orientation at Cisco, so no real work was done. My first day was a little hectic as my alarms didn't go off (I still woke up at a reasonable time!) and I almost got on the wrong light rail train. There were fifteen other interns coming into Cisco IT in my wave (thirty-something had come two weeks before us). The following three days were talks, setup, and social events with the other interns. On one of the days, we visited the Data Visualization Lab, which had an 85-inch 4K touch screen, as well as some of the cameras meant for conference calls that were able to track the speaker. Cool stuff! One day, we did dodge-ball, another we did an Amazing Race across campus.
 
-[![First stop on the Cisco Amazing Race](/images/thumbs/cisco_amazing_race.jpg){:width="298px"}](/images/cisco_amazing_race.jpg) [![](/images/thumbs/cisco_amazing_race2.jpg){:width="298px"}](/images/cisco_amazing_race2.jpg)
+<div class="row">
+  <div class="col-sm-6">
+    <a href="/images/cisco_amazing_race.jpg"><img class="img-responsive img-rounded center-block" src="/images/thumbs/cisco_amazing_race.jpg" alt="First stop on the Cisco Amazing Race" style="max-height:400px;"></a>
+  </div>
+  <div class="col-sm-6">
+    <a href="/images/cisco_amazing_race2.jpg"><img class="img-responsive img-rounded center-block" src="/images/thumbs/cisco_amazing_race2.jpg" alt="" style="max-height:400px;"></a>
+  </div>
+</div>
 
 By the way, the Cisco campus is huge. It's a ten minute car ride from the gym to where I will be working in McCarthy Rance, which is over an hour of walking. It's beautiful, though, especially where I work (you can see the hills/mountains not too far in the distance). Some of the buildings have massage chairs. Others (including McCarthy Ranch 2) have ping pong, pool, and foosball tables.
 
