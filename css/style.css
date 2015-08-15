@@ -1,39 +1,43 @@
-html,body,.container
+html, body
 {
     height:100%;
 }
-.container
-{
+
+.default-container {
     display:table;
+    height:100%;
     width: 100%;
+    padding: 0px;
     margin-top: 0px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    margin-left: -1px;
 }
 
-.row
-{
+.table-row {
     height: 100%;
     display: table-row;
 }
+
 .sidebar-column {
     padding-left:0;
 }
-.col-xs-3.no-float {
-    float: none; /* thanks baxabbit */
-    padding:0;
+
+.sidebar-column.no-float {
+    float: none;
+    padding-left:0px;
+    padding-right:0px;
 }
-.col-xs-9.no-float {
+
+.main-content.no-float {
     float: none;
     padding-left:25px;
 }
-.col-xs-3
-{
+
+.sidebar-column {
     display: table-cell;
     background: #F0F0F0;
 }
-.col-xs-9
-{
+
+.main-content {
     display: table-cell;
     background: white;
     float: none;
