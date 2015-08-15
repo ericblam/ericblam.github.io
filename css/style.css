@@ -39,6 +39,11 @@ html, body
 
 .main-content {
     display: table-cell;
+    padding-top:15px;
     background: white;
     float: none;
+}
+
+.no-top-padding {
+    padding-top:0px;
 }

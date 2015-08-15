@@ -30,14 +30,14 @@ function write_table(data) {
     // For every category
     for (i = 0; i < data.length; i++) {
 
-	text += "<h3 class='sheetmusic'>";
+	text += "<h3 class='text-center'>";
 	text += data[i].category;
 	text += "</h3>";
-	text += "<table class='sheetmusic'>";
-	text += "<tr>";
+	text += "<table class='table sheetmusic'>";
+	text += "<thead><tr>";
 	text += "<th>Song</th><th>From</th><th>Composed By</th>";
 	text += "<th>MIDI</th><th>MuseScore</th><th>PDF</th>";
-	text += "</tr>"
+	text += "</tr></thead><tbody>"
 
 	// For every song
 	for (j = 0; j < data[i].data.length; j++) {
@@ -70,7 +70,7 @@ function write_table(data) {
 	}
 
 
-	text += "</table>";
+	text += "</tbody></table><br />";
 
     }
     return text;
