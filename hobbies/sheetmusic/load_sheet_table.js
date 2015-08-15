@@ -36,7 +36,7 @@ function write_table(data) {
 	text += "<table class='table sheetmusic'>";
 	text += "<thead><tr>";
 	text += "<th>Song</th><th>From</th><th>Composed By</th>";
-	text += "<th>MIDI</th><th>MuseScore</th><th>PDF</th>";
+	text += "<th class='text-center'>MIDI</th><th class='text-center'>MuseScore</th><th class='text-center'>PDF</th>";
 	text += "</tr></thead><tbody>"
 
 	// For every song
@@ -47,21 +47,21 @@ function write_table(data) {
 	    text += "<td>" + data[i].data[j].composer + "</td>";
 	    if ( data[i].data[j].mid ) {
 		text += "<td><a href='" + data[i].data[j].fileName + ".mid'>";
-		text += "<img src='../../images/music_thumb.jpg'></a></td>";
+		text += "<img class='center-block' src='/images/music_thumb.jpg'></a></td>";
 	    }
 	    else {
 		text += "<td>" + "" + "</td>";
 	    }
 	    if ( data[i].data[j].mscz ) {
 		text += "<td><a href='" + data[i].data[j].fileName + ".mscz'>";
-		text += "<img src='../../images/muse_thumb.png'></a></td>";
+		text += "<img class='center-block' src='/images/muse_thumb.png'></a></td>";
 	    }
 	    else {
 		text += "<td>" + "" + "</td>";
 	    }
 	    if ( data[i].data[j].pdf ) {
 		text += "<td><a href='" + data[i].data[j].fileName + ".pdf'>";
-		text += "<img src='../../images/pdf_thumb.jpg'></a></td>";
+		text += "<img class='center-block' src='/images/pdf_thumb.jpg'></a></td>";
 	    }
 	    else {
 		text += "<td>" + "" + "</td>";
