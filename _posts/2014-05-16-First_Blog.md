@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: First Blog Entry!
 author: Eric Lam
 ---

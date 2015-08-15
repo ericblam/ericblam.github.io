@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: Summer Days
 author: Eric Lam
 ---

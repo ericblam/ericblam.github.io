@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: Pre-Work Quiet
 author: Eric Lam
 ---

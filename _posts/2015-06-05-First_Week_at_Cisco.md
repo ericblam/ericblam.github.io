@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: First Week at Cisco
 author: Eric Lam
 ---

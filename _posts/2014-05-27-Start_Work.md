@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: First Day Of Work (Again) at Octopart
 author: Eric Lam
 ---

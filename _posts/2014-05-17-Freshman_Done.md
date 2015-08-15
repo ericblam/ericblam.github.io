@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-post
 title: Freshman Year at RPI Finished
 author: Eric Lam
 ---
