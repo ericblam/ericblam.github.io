@@ -5,7 +5,7 @@ title: Eric Lam's Blog
 {% for post in site.posts %}
 <div class="post-preview">
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <div class="author-info">By {{post.author}} on {{ post.date | date: "%A, %B %d, %Y"}}</div>
+  <div class="author-info">By {{post.author}} on {{ post.date | date: "%A, %B %d, %Y"}}</div><br />
   {{ post.content | split: "<!-- more -->" | first }}
   {% if post.content contains "<!-- more -->" %}
   <p class="read-more"><a href="{{ post.url }}">Read more &raquo;</a></p>
