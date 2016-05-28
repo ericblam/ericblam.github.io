@@ -18,6 +18,7 @@ function httpGet(url)
             var file_data = xmlhttp.responseText;
 	    var json_data = JSON.parse(file_data);
 	    document.getElementById("sheet_table").innerHTML = write_table(json_data);
+	    location.href = window.location.pathname + window.location.hash;
         }
     }
     xmlhttp.open("GET", url, true );
