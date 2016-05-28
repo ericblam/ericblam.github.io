@@ -215,6 +215,15 @@
 		"mid": true,
 		"mscz": true,
 		"pdf": true
+	    },
+	    {
+		"title": "Sunset at Mushroomm Castle",
+		"from": "Harmony of Heroes",
+		"composer": "Bernardo Limon",
+		"fileName": "sunset_at_mushroom_castle",
+		"mid": true,
+		"mscz": true,
+		"pdf": true
 	    }
 	]
     },
