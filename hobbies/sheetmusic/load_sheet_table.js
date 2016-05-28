@@ -30,7 +30,7 @@ function write_table(data) {
     // For every category
     for (i = 0; i < data.length; i++) {
 
-	text += "<h3 class='text-center'>";
+	text += "<h3 id='" + data[i].category + "' class='text-center'>";
 	text += data[i].category;
 	text += "</h3>";
 	text += "<table class='table sheetmusic'>";
