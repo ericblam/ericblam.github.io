@@ -217,6 +217,15 @@
 		"pdf": true
 	    },
 	    {
+		"title": "Green Garden",
+		"from": "Bomberman 64",
+		"composer": "Akifumi Tada",
+		"fileName": "green_garden",
+		"mid": true,
+		"mscz": true,
+		"pdf": true
+	    },
+	    {
 		"title": "Sunset at Mushroom Castle",
 		"from": "Harmony of Heroes",
 		"composer": "Bernardo Limon",
