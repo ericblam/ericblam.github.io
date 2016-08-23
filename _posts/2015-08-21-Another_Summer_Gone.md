@@ -57,7 +57,8 @@ author: Eric Lam
       <img class="img-responsive img-rounded center-block" src="/images/thumbs/golden_gate_bridge.jpg" />
     </a>
   </div>
-</div><br />
+</div>
+<br />
 
 <p>But there is more! I went with my Google friend to Monterey, where we visited the aquarium, ate, and drove along the shoreline. And there was Bricks by the Bay, a LEGO convention held in Santa Clara.</p>
 

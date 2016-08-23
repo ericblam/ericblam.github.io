@@ -74,7 +74,7 @@ I organized another Induction for UPE on top of the course load, but the biggest
       <img class="img-responsive img-rounded center-block" src="/images/thumbs/mit_vw.jpg" />
     </a>
   </div>
-</div><br />
-
+</div>
+<br />
 
 <p>Here's to a great summer in Seattle and a wonderful next year!</p>
