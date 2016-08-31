@@ -72,7 +72,7 @@ author: Eric Lam
   <li>Camped in Olympic National Park by Crescent Lake</li>
 </ul>
 
-<p>The summer was fantastic. Aside from work, I was able to get a bit of dancing in (admittedly only toward the end but it helped me improve a lot) and push out a ton of photos. Though I took around 6000 photos this summer (rivals last year's 6400), I cut that down to a whopping 910 (vs 725 last year). I was quite proud of a fair amount of the photos that I had taken. Most of the photos that I had in this post were taken by me (the only exceptions are the rafting photo and the photo at Goat Lake).</p>
+<p>The summer was fantastic. Aside from work, I was able to get a bit of dancing in (admittedly only toward the end but it helped me improve a lot) and push out a ton of photos. Though I took a bit over 5800 photos this summer (rivals last year's 6400), I cut that down to a whopping 910 (vs 725 last year). I was quite proud of a fair amount of the photos that I had taken. Most of the photos that I had in this post were taken by me (the only exceptions are the rafting photo and the photo at Goat Lake).</p>
 
 <div class="row">
   <div class="col-sm-4">
