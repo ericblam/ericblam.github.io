@@ -112,6 +112,15 @@
 		"pdf": true
 	    },
 	    {
+		"title": "Windfall Island",
+		"from": "Wind Waker",
+		"composer": "Koji Kondo",
+		"fileName": "windfall_island",
+		"mid": true,
+		"mscz": true,
+		"pdf": true
+	    },
+	    {
 		"title": "Credits",
 		"from": "Twilight Princess",
 		"composer": "Koji Kondo",
@@ -175,14 +184,24 @@
 		"pdf": true
 	    },
 	    {
-		"title": "Windfall Island",
-		"from": "Wind Waker",
-		"composer": "Koji Kondo",
-		"fileName": "windfall_island",
+		"title": "Korok Forest",
+		"from": "Breath of the Wild",
+		"composer": "Manaka Kataoka",
+		"fileName": "korok_forest",
+		"mid": true,
+		"mscz": true,
+		"pdf": true
+	    },
+	    {
+		"title": "Tarrey Town",
+		"from": "Breath of the Wild",
+		"composer": "Manaka Kataoka",
+		"fileName": "tarrey_town",
 		"mid": true,
 		"mscz": true,
 		"pdf": true
 	    }
+	    
 	]
     },
 
