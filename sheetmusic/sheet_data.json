@@ -77,6 +77,15 @@
 		"mid": true,
 		"mscz": true,
 		"pdf": true
+	    },
+	    {
+		"title": "S.S. Anubis",
+		"from": "Jet Force Gemini",
+		"composer": "Robin Beanland",
+		"fileName": "ss_anubis",
+		"mid": true,
+		"mscz": true,
+		"pdf": true
 	    }
 	]
     },
