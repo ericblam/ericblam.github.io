@@ -1,4 +1,4 @@
-var url = "http://ericblam.com/sheetmusic/sheet_data.json";
+var url = "https://ericblam.com/sheetmusic/sheet_data.json";
 
 function httpGet(url)
 {
