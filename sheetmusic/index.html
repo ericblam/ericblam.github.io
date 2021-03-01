@@ -6,5 +6,52 @@ title: Eric Lam - Sheet Music
 <p>I have arranged pretty much all of this sheet music with <a href="https://musescore.org">MuseScore</a>. Especially with some of the songs that I have done by ear, it has helped to use the free, open-source, audio editing program <a href="https://audacity.sourceforge.net/">Audacity</a></p>
 <p>Also make sure to check out some of the sheet music from some of my favoirte places such as <a href="https://www.ninsheetm.us/">NinSheetMusic</a>, <a href="https://herbalcell.com/free-sheet-music">herballcell</a>, <a href="https://www.zeldacapital.com/sheet.php">Zelda Capital</a>, and <a href="https://rampancy.net/sheetmusic">Rampancy</a>.</p>
 <div id="sheet_table"></div>
-<script src="load_sheet_table.js" type="text/javascript"></script>
+
+
+{%- for category in site.data.sheetmusic %}
+<h3 id='{{category.category}}' class='text-center'>{{category.category}}</h3>
+<table class='table sheetmusic'>
+    <thead>
+        <tr>
+            <th>Song</th>
+            <th>From</th>
+            <th>Composed By</th>
+            <th class='text-center'>MIDI</th>
+            <th class='text-center'>MuseScore</th>
+            <th class='text-center'>PDF</th>
+        </tr>
+    </thead>
+    {%- for song in category.data %}
+    <tr>
+        <td>{{ song.title }}</td>
+        <td>{{ song.from }}</td>
+        <td>{{ song.composer }}</td>
+        <td>
+            {%- if song.mid %}
+            <a href='{{ song.fileName }}.mid'>
+                <img class='center-block' src='/images/music_thumb.jpg'>
+            </a>
+            {%- endif %}
+        </td>
+        <td>
+            {%- if song.mscz %}
+            <a href='{{ song.fileName }}.mscz'>
+                <img class='center-block' src='/images/muse_thumb.png'>
+            </a>
+            {%- endif %}
+        </td>
+        <td>
+            {%- if song.pdf %}
+            <a href='{{ song.fileName }}.pdf'>
+                <img class='center-block' src='/images/pdf_thumb.jpg'>
+            </a>
+            {%- endif %}
+        </td>
+    </tr>
+    {%- endfor %}
+</table>
+<br />
+
+{%- endfor %}
+
 <br /><br /><br />
