@@ -30,10 +30,10 @@ On top of classes and coursework, I started as Membership Chair for <a href="htt
 
 <div class="row">
   <div class="col-sm-6">
-    <a href="/images/train.jpg" title="Train, made with my two hands and several large machines"><img class="img-responsive img-rounded center-block" src="/images/thumbs/train.jpg"></a>
+    <a href="/images/blog/train.jpg" title="Train, made with my two hands and several large machines"><img class="img-responsive img-rounded center-block" src="/images/thumbs/train.jpg"></a>
   </div>
   <div class="col-sm-6">
-    <a href="/images/image_processing.png" title="Using some of the techniques from image processing I was able to tag notes in sheet music"><img class="img-responsive img-rounded center-block" src="/images/thumbs/image_processing.png"></a>
+    <a href="/images/blog/image_processing.png" title="Using some of the techniques from image processing I was able to tag notes in sheet music"><img class="img-responsive img-rounded center-block" src="/images/thumbs/image_processing.png"></a>
   </div>
 </div>
 <br />
@@ -60,17 +60,17 @@ I organized another Induction for UPE on top of the course load, but the biggest
 
 <div class="row">
   <div class="col-sm-4">
-    <a href="/images/rpi_vw.jpg" title="Standard Viennese Waltz at RPI">
+    <a href="/images/blog/rpi_vw.jpg" title="Standard Viennese Waltz at RPI">
       <img class="img-responsive img-rounded center-block" src="/images/thumbs/rpi_vw.jpg">
     </a>
   </div>
   <div class="col-sm-4">
-    <a href="/images/mit_c.jpg" title="I made my Latin outfit quite sparkly. I really like it.">
+    <a href="/images/blog/mit_c.jpg" title="I made my Latin outfit quite sparkly. I really like it.">
       <img class="img-responsive img-rounded center-block" src="/images/thumbs/mit_c.jpg" />
     </a>
   </div>
   <div class="col-sm-4">
-    <a href="/images/mit_vw.jpg" title="Our Viennese Waltz after several rounds at MIT">
+    <a href="/images/blog/mit_vw.jpg" title="Our Viennese Waltz after several rounds at MIT">
       <img class="img-responsive img-rounded center-block" src="/images/thumbs/mit_vw.jpg" />
     </a>
   </div>

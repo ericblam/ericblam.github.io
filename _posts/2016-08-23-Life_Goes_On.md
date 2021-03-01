@@ -11,28 +11,28 @@ author: Eric Lam
 
 <div class="row">
   <div class="col-sm-3">
-    <a href="/images/summer2016_01.jpg" title="First hike, before work even started"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_01.jpg"></a>
+    <a href="/images/blog/summer2016_01.jpg" title="First hike, before work even started"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_01.jpg"></a>
   </div>
   <div class="col-sm-3">
-    <a href="/images/summer2016_02.jpg" title="Goat Lake was chilly but worth it"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_02.jpg"></a>
+    <a href="/images/blog/summer2016_02.jpg" title="Goat Lake was chilly but worth it"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_02.jpg"></a>
   </div>
   <div class="col-sm-3">
-    <a href="/images/summer2016_05.jpg" title="Colchuck Lake, before we started up Asgard Pass"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_05.jpg"></a>
+    <a href="/images/blog/summer2016_05.jpg" title="Colchuck Lake, before we started up Asgard Pass"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_05.jpg"></a>
   </div>
   <div class="col-sm-3">
-    <a href="/images/summer2016_06_0.jpg" title="Shi Shi Beach after a rainy night setting up camp"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_06_0.jpg"></a>
+    <a href="/images/blog/summer2016_06_0.jpg" title="Shi Shi Beach after a rainy night setting up camp"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_06_0.jpg"></a>
   </div>
 </div>
 
 <div class="row">
   <div class="col-sm-4">
-    <a href="/images/summer2016_04.jpg" title="White water rafting!"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_04.jpg"></a>
+    <a href="/images/blog/summer2016_04.jpg" title="White water rafting!"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_04.jpg"></a>
   </div>
   <div class="col-sm-4">
-    <a href="/images/summer2016_10.jpg" title="Early-on in the Microsoft Intern Game with Stochastic Tomfoolery"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_10.jpg"></a>
+    <a href="/images/blog/summer2016_10.jpg" title="Early-on in the Microsoft Intern Game with Stochastic Tomfoolery"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_10.jpg"></a>
   </div>
   <div class="col-sm-4">
-    <a href="/images/summer2016_12.jpg" title="Hiking in Olympus National Park provided for some breath-taking views"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_12.jpg"></a>
+    <a href="/images/blog/summer2016_12.jpg" title="Hiking in Olympus National Park provided for some breath-taking views"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_12.jpg"></a>
   </div>
 </div>
 
@@ -46,13 +46,13 @@ author: Eric Lam
 
 <div class="row">
   <div class="col-sm-4">
-    <a href="/images/summer2016_06_1.jpg" title="After a weekend of camping, I hadn't taken enough photos so I played around with firework shots"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_06_1.jpg"></a>
+    <a href="/images/blog/summer2016_06_1.jpg" title="After a weekend of camping, I hadn't taken enough photos so I played around with firework shots"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_06_1.jpg"></a>
   </div>
   <div class="col-sm-4">
-    <a href="/images/summer2016_07.jpg" title="At the Star Trek exhibit at the EMP"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_07.jpg"></a>
+    <a href="/images/blog/summer2016_07.jpg" title="At the Star Trek exhibit at the EMP"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_07.jpg"></a>
   </div>
   <div class="col-sm-4">
-    <a href="/images/summer2016_08.jpg" title="The Pacific Science Center had an exhibit on Nathan Sawaya's art"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_08.jpg"></a>
+    <a href="/images/blog/summer2016_08.jpg" title="The Pacific Science Center had an exhibit on Nathan Sawaya's art"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_08.jpg"></a>
   </div>
 </div>
 
@@ -76,16 +76,16 @@ author: Eric Lam
 
 <div class="row">
   <div class="col-sm-4">
-    <a href="/images/summer2016_09.jpg" title="The wedding of a friend of mine. It was a ton of fun and super sweet"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_09.jpg"></a>
+    <a href="/images/blog/summer2016_09.jpg" title="The wedding of a friend of mine. It was a ton of fun and super sweet"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_09.jpg"></a>
   </div>
   <div class="col-sm-4">
-    <a href="/images/summer2016_11.jpg" title="Because I can't keep away from dancing"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_11.jpg"></a>
+    <a href="/images/blog/summer2016_11.jpg" title="Because I can't keep away from dancing"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_11.jpg"></a>
   </div>
   <div class="col-sm-4">
-    <a href="/images/summer2016_ise.jpg" title="Intern Signature Event at Seattle Center with an Ellie Goulding concert (and free Surface Books!)"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_ise.jpg"></a>
+    <a href="/images/blog/summer2016_ise.jpg" title="Intern Signature Event at Seattle Center with an Ellie Goulding concert (and free Surface Books!)"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_ise.jpg"></a>
   </div>
 </div>
 
 <p>It's been a great (and oddly short) summer, but I am looking forward to getting back to school, dancing, and friends.</p>
 
-<a href="/images/summer2016_03.jpg" title="Lost on our way to Colchuck Lake we found another hike just as nice"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_03.jpg"></a>
+<a href="/images/blog/summer2016_03.jpg" title="Lost on our way to Colchuck Lake we found another hike just as nice"><img class="img-responsive img-rounded center-block" src="/images/thumbs/summer2016_03.jpg"></a>
