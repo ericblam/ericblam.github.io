@@ -10,46 +10,113 @@ title: Eric Lam - Sheet Music
 
 {%- for category in site.data.sheetmusic %}
 <h3 id='{{category.category}}' class='text-center'>{{category.category}}</h3>
-<table class='table sheetmusic'>
-    <thead>
+<div class="table-responsive">
+    <table class='table'>
+        <thead>
+            <tr>
+                <th>Song</th>
+                <th>From</th>
+                <th>Composed By</th>
+                <th class='d-none d-sm-table-cell text-center'>MIDI</th>
+                <th class='d-none d-sm-table-cell text-center'>MuseScore</th>
+                <th class='d-none d-sm-table-cell text-center'>PDF</th>
+                <th class='d-sm-none text-center'></th>
+            </tr>
+        </thead>
+        {%- for song in category.data %}
         <tr>
-            <th>Song</th>
-            <th>From</th>
-            <th>Composed By</th>
-            <th class='text-center'>MIDI</th>
-            <th class='text-center'>MuseScore</th>
-            <th class='text-center'>PDF</th>
+            <td>{{ song.title }}</td>
+            <td>{{ song.from }}</td>
+            <td>{{ song.composer }}</td>
+            <td class='d-none d-sm-table-cell'>
+                {%- if song.mid %}
+                <a href='/sheetmusic/data/{{ song.fileName }}.mid'>
+                    <img class='mx-auto d-block' src='/images/music_thumb.jpg'>
+                </a>
+                {%- endif %}
+            </td>
+            <td class='d-none d-sm-table-cell'>
+                {%- if song.mscz %}
+                <a href='/sheetmusic/data/{{ song.fileName }}.mscz'>
+                    <img class='mx-auto d-block' src='/images/muse_thumb.png'>
+                </a>
+                {%- endif %}
+            </td>
+            <td class='d-none d-sm-table-cell'>
+                {%- if song.pdf %}
+                <a href='/sheetmusic/data/{{ song.fileName }}.pdf'>
+                    <img class='mx-auto d-block' src='/images/pdf_thumb.jpg'>
+                </a>
+                {%- endif %}
+            </td>
+            <td class='d-sm-none'>
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#downloadModal">
+                    Download
+                </button>
+
+                <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="downloadModalLabel">Download</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <table class='table table-borderless'>
+                                    {%- if song.mid %}
+                                    <tr>
+                                        <td>
+                                            MIDI
+                                        </td>
+                                        <td>
+                                            <a href='/sheetmusic/data/{{ song.fileName }}.mid'>
+                                                <button type="button" class="btn btn-secondary">
+                                                    Download
+                                                </button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    {%- endif %}
+                                    {%- if song.mscz %}
+                                    <tr>
+                                        <td>
+                                            MuseScore
+                                        </td>
+                                        <td>
+                                            <a href='/sheetmusic/data/{{ song.fileName }}.mscz'>
+                                                <button type="button" class="btn btn-secondary">
+                                                    Download
+                                                </button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    {%- endif %}
+                                    {%- if song.pdf %}
+                                    <tr>
+                                        <td>
+                                            PDF
+                                        </td>
+                                        <td>
+                                            <a href='/sheetmusic/data/{{ song.fileName }}.pdf'>
+                                                <button type="button" class="btn btn-secondary">
+                                                    Download
+                                                </button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    {%- endif %}
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
         </tr>
-    </thead>
-    {%- for song in category.data %}
-    <tr>
-        <td>{{ song.title }}</td>
-        <td>{{ song.from }}</td>
-        <td>{{ song.composer }}</td>
-        <td>
-            {%- if song.mid %}
-            <a href='/sheetmusic/data/{{ song.fileName }}.mid'>
-                <img class='mx-auto d-block' src='/images/music_thumb.jpg'>
-            </a>
-            {%- endif %}
-        </td>
-        <td>
-            {%- if song.mscz %}
-            <a href='/sheetmusic/data/{{ song.fileName }}.mscz'>
-                <img class='mx-auto d-block' src='/images/muse_thumb.png'>
-            </a>
-            {%- endif %}
-        </td>
-        <td>
-            {%- if song.pdf %}
-            <a href='/sheetmusic/data/{{ song.fileName }}.pdf'>
-                <img class='mx-auto d-block' src='/images/pdf_thumb.jpg'>
-            </a>
-            {%- endif %}
-        </td>
-    </tr>
-    {%- endfor %}
-</table>
+        {%- endfor %}
+    </table>
+</div>
 <br />
 
 {%- endfor %}
