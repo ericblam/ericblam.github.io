@@ -28,22 +28,22 @@ title: Eric Lam - Sheet Music
         <td>{{ song.composer }}</td>
         <td>
             {%- if song.mid %}
-            <a href='{{ song.fileName }}.mid'>
-                <img class='center-block' src='/images/music_thumb.jpg'>
+            <a href='/sheetmusic/data/{{ song.fileName }}.mid'>
+                <img class='mx-auto d-block' src='/images/music_thumb.jpg'>
             </a>
             {%- endif %}
         </td>
         <td>
             {%- if song.mscz %}
-            <a href='{{ song.fileName }}.mscz'>
-                <img class='center-block' src='/images/muse_thumb.png'>
+            <a href='/sheetmusic/data/{{ song.fileName }}.mscz'>
+                <img class='mx-auto d-block' src='/images/muse_thumb.png'>
             </a>
             {%- endif %}
         </td>
         <td>
             {%- if song.pdf %}
-            <a href='{{ song.fileName }}.pdf'>
-                <img class='center-block' src='/images/pdf_thumb.jpg'>
+            <a href='/sheetmusic/data/{{ song.fileName }}.pdf'>
+                <img class='mx-auto d-block' src='/images/pdf_thumb.jpg'>
             </a>
             {%- endif %}
         </td>
