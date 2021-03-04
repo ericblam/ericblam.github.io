@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
+  <head>
+    <title>Eric Lam</title>
+    <meta name="author" content="Eric Lam">
+    <meta name="description" content="Eric Lam's Homepage - All About Eric Lam">
+    <meta name="keywords" content="Eric, B, Lam">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/x-icon" href="/images/icon.ico">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </head>
+
   <body>
-    <div class="container default-container">
-      <div class="row table-row">
-	<div class="col-xs-3 sidebar-column no-float">
-	  {% include header.html %}
-	</div>
-	<div class="col-xs-9 main-content no-float">
-	  {{ content }}
-	</div>
+    <img class="img-fluid" src="/images/background.jpg">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="/">Eric Lam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="nav-home" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-hobbies" href="/hobbies/">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-sheetmusic" href="/sheetmusic/">Sheet Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-gallery" href="/gallery/">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-blog" href="/blog/">Blog</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
+
+    <main>
+      <div class="container text-left">
+	      {{ content }}
+      </div>
+    </main>
+
+    <footer class="text-center footer">
+      <a class="social-icon" href="mailto:eric@ericblam.com"><i class="fa fa-envelope"></i></a>
+      <a class="social-icon" href="https://www.github.com/ericblam"><i class="fa fa-github"></i></a>
+      <a class="social-icon" href="https://www.linkedin.com/pub/eric-lam/57/9a6/338/"><i class="fa fa-linkedin"></i></a>
+      <a class="social-icon" href="/resume.pdf"><i class="fa fa-file-text"></i></a>
+    </footer>
   </body>
+
+  <script>
+    var pageUrl = "{{ page.url }}";
+    pageUrl = pageUrl.replace(/^\/+|\/+$/g, "");
+    console.log(pageUrl);
+    if (pageUrl.length === 0) pageUrl = "home";
+    if (pageUrl.match(/^\d{4}\/\d{2}\/\d{2}\/.+.html$/)) pageUrl = "blog";
+    console.log($("#nav-" + pageUrl));
+    $("#nav-" + pageUrl).addClass("active");
+  </script>
 </html>
