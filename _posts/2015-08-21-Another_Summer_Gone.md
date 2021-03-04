@@ -14,12 +14,12 @@ author: Eric Lam
 <div class="row">
   <div class="col-sm-6">
     <a href="/images/blog/cvc_picnic.jpg" title="Grant absolutely loves how he's the only truly ridiculous face in the photo.">
-      <img class="img-responsive img-rounded center-block" src="/images/thumbs/cvc_picnic.jpg" />
+      <img class="img-fluid rounded mx-auto d-block" src="/images/thumbs/cvc_picnic.jpg" />
     </a>
   </div>
   <div class="col-sm-6">
     <a href="/images/blog/cvc_picnic_2.jpg">
-      <img class="img-responsive img-rounded center-block" src="/images/thumbs/cvc_picnic_2.jpg" />
+      <img class="img-fluid rounded mx-auto d-block" src="/images/thumbs/cvc_picnic_2.jpg" />
     </a>
   </div>
 </div>
@@ -49,12 +49,12 @@ author: Eric Lam
 <div class="row">
   <div class="col-sm-6">
     <a href="/images/blog/yosemite_valley.jpg" title="Our first view of the valley was one of the most stunning and unforgettable.">
-      <img class="img-responsive img-rounded center-block" src="/images/thumbs/yosemite_valley.jpg" />
+      <img class="img-fluid rounded mx-auto d-block" src="/images/thumbs/yosemite_valley.jpg" />
     </a>
   </div>
   <div class="col-sm-6">
     <a href="/images/blog/golden_gate_bridge.jpg" title="The best view at Battery Spencer, across the bridge from SF">
-      <img class="img-responsive img-rounded center-block" src="/images/thumbs/golden_gate_bridge.jpg" />
+      <img class="img-fluid rounded mx-auto d-block" src="/images/thumbs/golden_gate_bridge.jpg" />
     </a>
   </div>
 </div>
@@ -63,7 +63,7 @@ author: Eric Lam
 <p>But there is more! I went with my Google friend to Monterey, where we visited the aquarium, ate, and drove along the shoreline. And there was Bricks by the Bay, a LEGO convention held in Santa Clara.</p>
 
 <a href="/images/blog/lego_greninja.jpg" title="A LEGO Greninja at Bricks by the Bay.">
-  <img class="img-responsive img-rounded center-block" src="/images/thumbs/lego_greninja.jpg" style="max-width:700px;"/>
+  <img class="img-fluid rounded mx-auto d-block" src="/images/thumbs/lego_greninja.jpg" style="max-width:700px;"/>
 </a>
 
 <p>The summer proved to be quite a blast. I met wonderful people and learned a ton, both in a technical sense and in a professional sense.</p>

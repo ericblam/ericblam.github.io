@@ -7,7 +7,7 @@ It was a bittersweet day at Cisco. After saying too many good-byes yesterday to 
 
 But I spent the day working. No, not on Cisco work, though. My laptop was returned yesterday. I was left with something I had been putting off for a while: making a new website. My old website was pretty... basic.
 
-<img class="img-responsive img-rounded center-block" src="/images/blog/old_website.jpg" style="max-width:600px;">
+<img class="img-fluid rounded mx-auto d-block" src="/images/blog/old_website.jpg" style="max-width:600px;">
 
 So I spent my time first migrating over to Jekyll. After that, my website looked... no different. But alas, this meant that if I had a template with navbars and such, I wouldn't have to copy code all of the time.
 
