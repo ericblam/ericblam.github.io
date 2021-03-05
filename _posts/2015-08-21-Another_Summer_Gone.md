@@ -63,7 +63,7 @@ author: Eric Lam
 <p>But there is more! I went with my Google friend to Monterey, where we visited the aquarium, ate, and drove along the shoreline. And there was Bricks by the Bay, a LEGO convention held in Santa Clara.</p>
 
 <a href="/images/blog/lego_greninja.jpg" title="A LEGO Greninja at Bricks by the Bay.">
-  <img class="img-fluid rounded mx-auto d-block" src="/images/thumbs/lego_greninja.jpg" style="max-width:700px;"/>
+  <img class="img-fluid rounded mx-auto d-block" src="/images/thumbs/lego_greninja.jpg" />
 </a>
 
 <p>The summer proved to be quite a blast. I met wonderful people and learned a ton, both in a technical sense and in a professional sense.</p>
