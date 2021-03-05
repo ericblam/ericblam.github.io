@@ -4,6 +4,14 @@
     margin: 0 10px;
 }
 
+a.download:hover {
+    text-decoration: none;
+}
+
+a.download img {
+    padding-right: 10px;
+}
+
 main {
     margin-top: 20px;
     margin-bottom: 20px;
