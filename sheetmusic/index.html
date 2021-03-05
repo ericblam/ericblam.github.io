@@ -50,15 +50,15 @@ title: Eric Lam - Sheet Music
                 {%- endif %}
             </td>
             <td class='d-sm-none'>
-                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#downloadModal">
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#downloadModal{{ song.fileName }}">
                     Download
                 </button>
 
-                <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
+                <div class="modal fade" id="downloadModal{{ song.fileName }}" tabindex="-1" role="dialog" aria-labelledby="downloadModal{{ song.fileName }}Label" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                            <h5 class="modal-title" id="downloadModalLabel">Download</h5>
+                            <h5 class="modal-title" id="downloadModal{{ song.fileName }}Label">Download</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
