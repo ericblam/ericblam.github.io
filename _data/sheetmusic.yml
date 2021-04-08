@@ -139,6 +139,13 @@
     mid: true
     mscz: true
     pdf: true
+  - title: Kakariko Village
+    from: A Link Between Worlds
+    composer: Ryo Nagamatsu
+    fileName: kakariko_village_albw
+    mid: false
+    mscz: false
+    pdf: true
   - title: Korok Forest
     from: Breath of the Wild
     composer: Manaka Kataoka
@@ -189,6 +196,20 @@
     fileName: sunset_at_mushroom_castle
     mid: true
     mscz: true
+    pdf: true
+  - title: Overcooked 2 Title
+    from: Overcooked 2
+    composer: Oliver Wood
+    fileName: overcooked_2_main
+    mid: false
+    mscz: false
+    pdf: true
+  - title: Overcooked 2 Map
+    from: Overcooked 2
+    composer: Oliver Wood
+    fileName: overcooked_2_map
+    mid: false
+    mscz: false
     pdf: true
 - category: Clarinet
   data:
