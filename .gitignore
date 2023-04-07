@@ -1,4 +1,13 @@
 _site/
+
 *.ttf
 *.otf
 *.zip
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.xdv

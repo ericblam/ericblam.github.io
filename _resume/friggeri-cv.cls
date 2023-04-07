@@ -79,7 +79,7 @@ BoldItalicFont=HelveticaNeueLTCom-MdIt.ttf
 ]
 {HelveticaNeueLTCom-Lt.ttf}
 
-\setmathfont{HelveticaNeueLTCom-Lt.ttf}
+% \setmathfont{HelveticaNeueLTCom-Lt.ttf}
 %%%
 
 %%%%%%%%%%
