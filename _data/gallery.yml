@@ -1,0 +1,124 @@
+- row:
+  images:
+  - image:
+    thumb: "colchuck.jpg"
+    source: "blog/colchuck.jpg"
+    description: "Colchuck Lake, by the Base of Asgard Pass"
+  - image:
+    thumb: "summer2016_06_1.jpg"
+    source: "blog/summer2016_06_1.jpg"
+    description: "Celebrating Independence with a bang"
+  - image:
+    thumb: "cathedral.jpg"
+    source: "blog/cathedral.jpg"
+    description: "Just a tiny bit of what Arches National Park had to offer"
+- row:
+  images:
+  - image:
+    thumb: "lego_blossoms.jpg"
+    source: "blog/lego_blossoms.jpg"
+    description: ""
+  - image:
+    thumb: "flower.jpg"
+    source: "blog/flower.jpg"
+    description: ""
+- row:
+  images:
+  - image:
+    thumb: "horseshoe_bend.jpg"
+    source: "blog/horseshoe_bend.jpg"
+    description: "Horseshoe Bend at sunset"
+- row:
+  images:
+  - image:
+    thumb: "antelope_canyon.jpg"
+    source: "blog/antelope_canyon.jpg"
+    description: "Lower Antelope Canyon"
+  - image:
+    thumb: "arch.jpg"
+    source: "blog/arch.jpg"
+    description: "St. Louis' Gateway Arch"
+  - image:
+    thumb: "dipper.jpg"
+    source: "blog/dipper.jpg"
+    description: "Ursa Minor"
+- row:
+  images:
+  - image:
+    thumb: "prismatic.jpg"
+    source: "blog/prismatic.jpg"
+    description: "The Grand Prismatic Spring in Yellowstone"
+  - image:
+    thumb: "gardens.jpg"
+    source: "blog/gardens.jpg"
+    description: "In the San Francisco Japanese Tea Garden"
+- row:
+  images:
+  - image:
+    thumb: "yosemite_valley.jpg"
+    source: "blog/yosemite_valley.jpg"
+    description: "The first view of Yosemite Valley blew me away."
+- row:
+  images:
+  - image:
+    thumb: "claire_swing.jpg"
+    source: "blog/claire_swing.jpg"
+    description: "Social dancing at the 2015 Vermont Swing Championships"
+  - image:
+    thumb: "angela_leaves.jpg"
+    source: "blog/angela_leaves.jpg"
+    description: "Starfire is having a bit of fun with the leaves"
+  - image:
+    thumb: "jp_swing.jpg"
+    source: "blog/jp_swing.jpg"
+    description: "Competitive Jack-and-Jill at the 2015 Vermont Swing Championships"
+- row:
+  images:
+  - image:
+    thumb: "lego_halo.jpg"
+    source: "blog/lego_halo.jpg"
+    description: ""
+  - image:
+    thumb: "lego.jpg"
+    source: "blog/lego.jpg"
+    description: ""
+- row:
+  images:
+  - image:
+    thumb: "lego_greninja.jpg"
+    source: "blog/lego_greninja.jpg"
+    description: ""
+- row:
+  images:
+  - image:
+    thumb: "crepe.jpg"
+    source: "blog/crepe.jpg"
+    description: ""
+  - image:
+    thumb: "apple_festival.jpg"
+    source: "blog/apple_festival.jpg"
+    description: "At the Gould Orchards Apple Festival"
+- row:
+  images:
+  - image:
+    thumb: "desmond.jpg"
+    source: "blog/desmond.jpg"
+    description: "Team 694 testing the robot at Javits during competition in 2014"
+  - image:
+    thumb: "robot_parts.jpg"
+    source: "blog/robot_parts.jpg"
+    description: "Electronic components used for detecting light"
+- row:
+  images:
+  - image:
+    thumb: "faire.jpg"
+    source: "blog/faire.jpg"
+    description: ""
+  - image:
+    thumb: "snow_day.jpg"
+    source: "blog/snow_day.jpg"
+    description: "'nuff said"
+  - image:
+    thumb: "art.jpg"
+    source: "blog/art.jpg"
+    description: ""
