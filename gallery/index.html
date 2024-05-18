@@ -7,8 +7,8 @@ title: Eric Lam - Photo Gallery
 <div class="row">
     {%- for image in row.images %}
     <div class="col-sm">
-        <a href="/images/{{image.source}}" title="{{image.description}}">
-            <img class="img-thumbnail img-responsive" src="/images/thumbs/{{image.thumb}}">
+        <a href="/images/gallery/{{image.source}}" title="{{image.description}}">
+            <img class="img-thumbnail img-responsive" src="/images/thumbs/{{image.source}}">
         </a>
     </div>
     {%- endfor %}
