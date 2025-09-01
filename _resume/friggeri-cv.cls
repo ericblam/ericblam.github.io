@@ -158,18 +158,21 @@ BoldItalicFont=HelveticaNeueLTCom-MdIt.ttf
 
 \setlength{\tabcolsep}{0pt}
 \newenvironment{entrylist}{%
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
 }{%
-  \end{tabular*}
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
-\newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
-    \textbf{#2}%
+\newcommand{\entryheader}[2]{%
+    \textbf{#1}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-    #4\vspace{\parsep}%
-  }\\}
+    {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
+  }
+\newcommand{\entry}[3]{%
+    \parbox[t]{14cm}{%
+        \emph{#1}%
+        \hfill%
+        {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
+        #3\vspace{\parsep}%
+    }\\}
 
 
 %%%%%%%%%%%%%%
