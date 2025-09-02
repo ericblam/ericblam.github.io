@@ -162,16 +162,22 @@ BoldItalicFont=HelveticaNeueLTCom-MdIt.ttf
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entryheader}[2]{%
-    \textbf{#1}%
-    \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
-  }
+    \parbox[t]{14cm}{%
+        \textbf{#1}%
+        \hfill%
+        {\footnotesize\addfontfeature{Color=lightgray} #2}%
+    }\\}
 \newcommand{\entry}[3]{%
     \parbox[t]{14cm}{%
         \emph{#1}%
         \hfill%
         {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
+        \vspace{-10pt}%
         #3\vspace{\parsep}%
+    }\\}
+\newcommand{\entrynoheader}[1]{%
+    \parbox[t]{14cm}{%
+        #1\vspace{\parsep}%
     }\\}
 
 
