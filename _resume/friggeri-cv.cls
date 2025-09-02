@@ -106,7 +106,7 @@ BoldItalicFont=HelveticaNeueLTCom-MdIt.ttf
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.5cm}
+  \vspace{2.1cm}
   \vspace{-2\parskip}
 }
 
@@ -193,7 +193,7 @@ BoldItalicFont=HelveticaNeueLTCom-MdIt.ttf
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.6}(1.5, 3.83)
+  \begin{textblock}{3.6}(1.5, 3.43)
   \begin{flushright}
   \obeycr
 }{%
